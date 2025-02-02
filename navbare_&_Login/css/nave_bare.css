@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+img{
+	width: 70px;
+	padding: 8px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 17px;
+	background-color: #E7E7E7;
+}
+a img{
+	cursor: pointer;
+}
+nav{
+	padding: 8px;
+}
+nav a{
+	text-decoration: none;
+	padding: 9px;
+	color: black;
+}
+nav a:hover{
+	background-color: black;
+	color: white;
+	border-radius: 8px;
+}
+button{
+	background: none;
+	border: none;
+
+}
+button a{
+	font-size: 15px;
+}
